@@ -1,4 +1,4 @@
-package org.vincenzo.servlet;
+package org.vinrest.servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
-import org.vincenzo.beans.User;
-import org.vincenzo.utility.HibernateUtil;
+import org.vinrest.beans.User;
+import org.vinrest.utility.HibernateUtil;
 
 
 

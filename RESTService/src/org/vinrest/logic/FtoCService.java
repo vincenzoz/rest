@@ -1,4 +1,4 @@
-package org.vincenzo.logic;
+package org.vinrest.logic;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

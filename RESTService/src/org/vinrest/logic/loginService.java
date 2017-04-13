@@ -1,4 +1,4 @@
-package org.vincenzo.logic;
+package org.vinrest.logic;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

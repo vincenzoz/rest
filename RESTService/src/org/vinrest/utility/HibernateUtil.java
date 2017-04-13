@@ -1,4 +1,4 @@
-package org.vincenzo.utility;
+package org.vinrest.utility;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
