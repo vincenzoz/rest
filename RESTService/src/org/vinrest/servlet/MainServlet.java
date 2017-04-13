@@ -37,26 +37,26 @@ public class MainServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("1");
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		
-
-		Session session = HibernateUtil.getSessionFactory().openSession();
-		
-		session.beginTransaction();
-		
-		
-		String hql = "from users";
-		TypedQuery<User> userList = session.createQuery(hql);
-		List<User> result = userList.getResultList();
-		System.out.println(result.get(0).toString());
-		System.out.println(result.size());
-		
-		
-		
-		session.getTransaction();
-		session.close();
-		
-		HibernateUtil.shutdown();
+//		response.getWriter().append("Served at: ").append(request.getContextPath());
+//		
+//
+//		Session session = HibernateUtil.getSessionFactory().openSession();
+//		
+//		session.beginTransaction();
+//		
+//		
+//		String hql = "from users";
+//		TypedQuery<User> userList = session.createQuery(hql);
+//		List<User> result = userList.getResultList();
+//		System.out.println(result.get(0).toString());
+//		System.out.println(result.size());
+//		
+//		
+//		
+//		session.getTransaction();
+//		session.close();
+//		
+//		HibernateUtil.shutdown();
 		
 	}
 
